@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>SÍ A LA VIDA</title>
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/assets/bootstrap/css/bootstrap.min.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+	
+
+	<!-- Home Section
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+
+
+
+
+
+
+
+		<div class="intro">
+			<div class="intro-sub">I am TUSHAR</div>
+			<h1>Web <span>Developer</span></h1>
+			<p>I am freelance creative User Web Designer &amp; Developer<br> Involving and Evolving with latest web designing technologies.</p>
+
+      <div class="social-icons">
+        <ul class="list-inline">
+         <li><a href="https://github.com/tushar439" target="_blank" title="github"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/tushar-goel-a55b78107/" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/goeltushar439" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.hackerrank.com/sagar439" title="hackerrank" target="_blank"><i class="fa fa-header"></i></a></li>
+         
+          
+        </ul>
+      </div> <!-- /.social-icons -->
+    <!--
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section> End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href={{ url_for('index') }}>Home</a></li>
+                        
+                        <li><a href={{ url_for('task') }}>Tasks</a></li>
+						<li><a href={{ url_for('about') }}>About</a></li>
+            <li><a href={{ url_for('contact') }}>Contact</a></li>
+                        <li><a href={{ url_for('signup') }}>Signup</a></li>
+<li><a href={{ url_for('login') }}>Login</a></li>
+
+           					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+<!-- contact -->
+     <section id="contact" class="contact-section section-padding">
+      <div class="container">
+          <h2 class="cnt"><u>Get in touch</u></h2>
+
+          <br>
+          
+          
+          
+                <div>
+                  <strong>Madhur Sharma</strong>
+                
+    <br>
+                  <strong>Contact:</strong>
+                  +918447762556
+                
+                </div><br>
+          <div>
+                  <strong>Tushar Goel</strong>
+                  
+                    
+               <br>
+   
+                  <strong>Contact:</strong>
+                  +918800611116
+                
+                </div><br>
+<div>
+                  <strong>Shikha Byala</strong>
+        <br> <strong>Contact:</strong>
+                  +919910800679
+                <br>
+                </div><br><br>
+            <div class="contact-form">
+                <h2><u>Send us a message</u></h2>
+              <!-- www.123formbuilder.com script begins here --><br>
+<iframe allowTransparency="true" style="min-height:500px; height:inherit;" width="100%"  id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123formbuilder.com/my-contact-form-3296474.html">
+<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
+</iframe>
+
+<p><a class="footerLink13" title="123FormBuilder" href="https://www.123formbuilder.com"></a>&nbsp;&nbsp;<a style="font-size:small!important;color:#000000!important; text-decoration:underline!important;" title="Looks like phishing? Report it!" href="http://www.123formbuilder.com/sfnew.php?s=123contactform-52&control119314=http:///contact-form--3296474.html&control190=Report%20abuse" rel="nofollow"></a></p><!-- www.123formbuilder.com script ends here -->
+           
+          </div>
+          
+                                  </div>
+           
+
+          
+    </section><!-- End Contact Section -->
+
+
+    
+    
+    
+    
+        </body>
+</html>

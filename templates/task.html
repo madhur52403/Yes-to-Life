@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>SÍ A LA VIDA</title>
+
+  <!-- Web Fonts -->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/assets/bootstrap/css/bootstrap.min.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+    
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+	
+
+	<!-- Home Section
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+
+
+
+
+
+
+
+		<div class="intro">
+			<div class="intro-sub">I am TUSHAR</div>
+			<h1>Web <span>Developer</span></h1>
+			<p>I am freelance creative User Web Designer &amp; Developer<br> Involving and Evolving with latest web designing technologies.</p>
+
+      <div class="social-icons">
+        <ul class="list-inline">
+         <li><a href="https://github.com/tushar439" target="_blank" title="github"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/tushar-goel-a55b78107/" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/goeltushar439" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.hackerrank.com/sagar439" title="hackerrank" target="_blank"><i class="fa fa-header"></i></a></li>
+         
+          
+        </ul>
+      </div> <!-- /.social-icons -->
+    <!--
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section> End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href={{ url_for('index') }}>Home</a></li>
+                        
+                        <li><a href={{ url_for('task') }}>Tasks</a></li>
+						<li><a href={{ url_for('about') }}>About</a></li>
+            <li><a href={{ url_for('contact') }}>Contact</a></li>
+                        <li><a href={{ url_for('signup') }}>Signup</a></li>
+<li><a href={{ url_for('login') }}>Login</a></li>
+
+           					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- Home Section -->
+
+    <div class="dtf" align="center">
+    
+        <h1><font size="18"><strong>Today's Tasks</strong></font>
+        </h1>
+    
+    
+    
+    
+    </div>
+    
+    
+    <div class="tcontainer" align="center">
+  <img style="vertical-align:middle" src="/static/12.jpg" alt="Avatar" class="timgs img-responsive right">
+  <p>
+     <h2>TASK 1</h2>   
+        <br>
+        <strong>Take your pet out for a walk. If you don't have one, just go out for a walk in a nearby park. Tell us about it (like what you saw, how you feel,etc)</strong><br>
+        <input type="text" placeholder="Describe"><br>
+        <input type="submit" >
+        <input type="submit" value="Add a image" >
+        
+</p>
+    
+    
+    
+
+    
+    
+   
+     
+  <img style="vertical-align:middle" src="/static/y.jpg" alt="Avatar" class="timgs img-responsive right">
+  <p>
+     <h2>TASK 2</h2>   
+        <br>
+        <strong>Ask yourself do I treat myself and others kindly? If you've had arguments put yourself in their shoes today. Sit quietly for 5 minutes and repeat the word "CLARITY " and after, give yourself a nice long hug! How do you feel? You can share your views below!</strong><br>
+        <input type="text" placeholder="Describe"><br>
+        <input type="submit" >
+        <input type="submit" value="Add a image" >
+        
+</p>
+    
+    
+    
+</div>
+   
+    
+    
+    
+    <!- End About Section -->
+
+
+    
+   
+
+
+	<!-- Footer Section
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>Thanks!! Made with <i class="fa fa-heart" aria-hidden="true"></i></p>
+                
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>-- End Footer Section -->
+
+
+	<!-- Scroll-up 
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div> -->
+</body>   
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+  <script type="text/javascript">
+    var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000); // Change image every 2 seconds
+}
+
+  </script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
+
+        </body>
+</html>
